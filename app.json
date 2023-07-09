@@ -9,7 +9,7 @@
     "API_HASH": {"description": "Get this value from https://my.telegram.org", "required": true},                              
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
     "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true},
-    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n📯Join My Channel : @The_Happy_Hour_Hindi", "required": false}                         
+    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n<b>ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ   -   <a href=https://t.me/The_Happy_Hour_Hindi>ᴛʜᴇ ʜᴀᴘᴘʏ ʜᴏᴜʀ</a></b>\n<b>ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ - <a href=https://t.me/Happy_Hour_Friends>ʜᴀᴘᴘʏ ʜᴏᴜʀ ɢʀᴏᴜᴘ</a></b>", "required": false}                         
   }, 
   "addons": [ ],
   "buildpacks": [{"url": "heroku/python"}]
